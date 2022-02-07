@@ -1,0 +1,32 @@
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.select-none {
+    user-select: none !important;
+}
+
+.badge-custom {
+    inline-size: 70px;
+    padding-block-start: 3px;
+    padding-block-end: 3px;
+}
+.card-title-with-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card-title-with-button h5 {
+    margin-bottom: 0;
+}
+
+.placehoder:focus::placeholder {
+    transition: opacity .5s;
+}
+
+
+.placehoder:focus::placeholder {
+    opacity: 0;
+}
